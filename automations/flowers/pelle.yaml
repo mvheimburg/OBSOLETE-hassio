@@ -1,0 +1,10 @@
+alias: Miflora Pelle notofication
+trigger:
+  platform: numeric_state
+  entity_id: sensor.pelle_moisture
+  below: 16
+action:
+  service: notify.notify
+  data:
+    message: "Pelle needs water"
+    title: "Pelle"

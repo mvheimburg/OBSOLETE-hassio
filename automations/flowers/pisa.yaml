@@ -1,0 +1,10 @@
+alias: Miflora Pisa notofication
+trigger:
+  platform: numeric_state
+  entity_id: sensor.pisa_moisture
+  below: 16
+action:
+  service: notify.notify
+  data:
+    message: "Pisa needs water"
+    title: "Pisa"

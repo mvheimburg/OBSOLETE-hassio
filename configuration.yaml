@@ -1,0 +1,58 @@
+homeassistant:
+  name: Home
+  latitude: !secret latitude_home
+  longitude: !secret longitude_home
+  elevation: 50
+  unit_system: metric
+  time_zone: Europe/Oslo
+  customize: !include_dir_merge_named customizations/
+
+frontend:
+
+config:
+
+light: !include hue.yaml
+
+updater:
+
+http: !include http.yaml
+
+discovery:
+
+hassio:
+
+recorder: !include mysql.yaml
+
+logbook: !include logbook.yaml
+
+history: !include history.yaml
+
+logger:
+    default: info
+
+map:
+
+sun:
+
+sensor: !include_dir_list sensors/
+
+tts: !include tts.yaml
+
+ifttt: !include ifttt.yaml
+
+device_tracker: !include_dir_list device-tracker/
+
+zone: !include_dir_list zones/
+
+group: !include_dir_merge_named groups/
+
+automation: !include_dir_list automations/
+
+#script: !include scripts.yaml
+
+zwave:
+  usb_path: /dev/ttyACM0
+
+media_player: !include_dir_list media_players/
+
+notify: !include_dir_list notifiers/

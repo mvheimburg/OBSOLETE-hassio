@@ -1,0 +1,16 @@
+#//-----VIEW-----//
+network_view:
+  name: Network
+  view: yes
+  icon: mdi:gauge
+  entities:
+    - group.network
+
+#//-----GROUPS-----//
+##//weather//
+network:
+  name: Network
+  entities:
+    - sensor.speedtest_ping
+    - sensor.speedtest_download
+    - sensor.speedtest_upload

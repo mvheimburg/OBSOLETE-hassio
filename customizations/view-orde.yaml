@@ -1,0 +1,14 @@
+group.default_view:
+  order: 1
+group.lights_view:
+  order: 2
+group.heating_view:
+  order: 3
+group.flowers_view:
+  order: 4
+group.weather_view:
+  order: 5
+group.network_view:
+  order: 6
+group.rpi_status_view:
+  order: 7

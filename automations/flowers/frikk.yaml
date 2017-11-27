@@ -1,0 +1,10 @@
+alias: Miflora Frikk notofication
+trigger:
+  platform: numeric_state
+  entity_id: sensor.frikk_moisture
+  below: 20
+action:
+  service: notify.notify
+  data:
+    message: "Frikk needs water"
+    title: "Pelle"

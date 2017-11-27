@@ -1,0 +1,68 @@
+#miflora
+# Frikk
+sensor.frikk_light_intensity:
+  friendly_name: Light Intesity
+  icon: mdi:brightness-5
+sensor.frikk_temperature:
+    friendly_name: Temperature
+    icon: mdi:thermometer
+sensor.frikk_conductivity:
+  friendly_name: Nutrition
+  icon: mdi:barley
+sensor.frikk_battery:
+  friendly_name: Battery Level
+  icon: mdi:battery
+sensor.frikk_moisture:
+  friendly_name: Moisture
+  icon: mdi:water-percent
+
+#Pelle
+sensor.pelle_light_intensity:
+  friendly_name: Light Intesity
+  icon: mdi:brightness-5
+sensor.pelle_temperature:
+    friendly_name: Temperature
+    icon: mdi:thermometer
+sensor.pelle_conductivity:
+  friendly_name: Nutrition
+  icon: mdi:barley
+sensor.pelle_battery:
+  friendly_name: Battery Level
+  icon: mdi:battery
+sensor.pelle_moisture:
+  friendly_name: Moisture
+  icon: mdi:water-percent
+
+#Boble
+sensor.boble_light_intensity:
+  friendly_name: Light Intesity
+  icon: mdi:brightness-5
+sensor.boble_temperature:
+    friendly_name: Temperature
+    icon: mdi:thermometer
+sensor.boble_conductivity:
+  friendly_name: Nutrition
+  icon: mdi:barley
+sensor.boble_battery:
+  friendly_name: Battery Level
+  icon: mdi:battery
+sensor.boble_moisture:
+  friendly_name: Moisture
+  icon: mdi:water-percent
+
+#Pisa
+sensor.pisa_light_intensity:
+  friendly_name: Light Intesity
+  icon: mdi:brightness-5
+sensor.pisa_temperature:
+    friendly_name: Temperature
+    icon: mdi:thermometer
+sensor.pisa_conductivity:
+  friendly_name: Nutrition
+  icon: mdi:barley
+sensor.pisa_battery:
+  friendly_name: Battery Level
+  icon: mdi:battery
+sensor.pisa_moisture:
+  friendly_name: Moisture
+  icon: mdi:water-percent

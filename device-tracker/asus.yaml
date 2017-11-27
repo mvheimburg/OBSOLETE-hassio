@@ -1,0 +1,5 @@
+platform: asuswrt
+host: 192.168.1.1
+username: !secret router_usr
+password: !secret router_pswd
+protocol: telnet

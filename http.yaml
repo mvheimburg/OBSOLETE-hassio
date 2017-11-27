@@ -1,0 +1,4 @@
+base_url: !secret secret_base_url
+api_password: !secret secret_api_password
+ssl_certificate: !secret secret_ssl_certificate
+ssl_key: !secret secret_ssl_key

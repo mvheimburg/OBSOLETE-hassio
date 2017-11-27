@@ -1,0 +1,12 @@
+exclude:
+  domains:
+    - automation
+    - media
+    - light
+    - weblink
+    - updater
+    - group
+    - sun
+    - sensor
+    - media
+    - zwave

@@ -1,0 +1,17 @@
+#//-----VIEWS-----//
+default_view:
+  name: Home
+  view: yes
+  icon: mdi:home
+  entities:
+    - group.precense
+
+#//-----GROUPS-----//
+##//Light//
+
+##//Media//
+precense:
+  name: Precense
+  entities:
+    - device_tracker.martin
+    - device_tracker.trine

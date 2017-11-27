@@ -1,0 +1,10 @@
+platform: miflora
+mac: C4:7C:8D:64:30:1A
+name: Boble
+median: 3
+monitored_conditions:
+  - moisture
+  - light
+  - temperature
+  - conductivity
+  - battery

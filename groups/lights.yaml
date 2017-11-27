@@ -1,0 +1,33 @@
+#//-----VIEW-----//
+lights_view:
+  name: Lights
+  view: yes
+  icon: mdi:lightbulb
+  entities:
+    - group.living_room
+    - group.kitchen
+    - group.bedroom_matilde
+
+#//-----GROUPS-----//
+#//lights//
+living_room:
+  name: Living Room
+  entities:
+    - light.bloom
+    - group.td_lamp
+
+kitchen:
+  name: Kitchen
+  entities:
+    - light.fibaro_system_fgd212_dimmer_2_level
+
+bedroom_matilde:
+  name: Matilde
+  entities:
+    - light.hue_lightstrip_plus_1
+
+td_lamp:
+  name: TD Lamp
+  entities:
+    - light.hue_white_lamp_1
+    - light.hue_white_lamp_2

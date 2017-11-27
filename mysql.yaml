@@ -1,0 +1,1 @@
+db_url: !secret secret_mysql_recorder

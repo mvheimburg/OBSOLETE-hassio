@@ -1,0 +1,32 @@
+#//-----VIEW-----//
+rpi_status_view:
+  name: RPi Status
+  view: yes
+  icon: mdi:chip
+  entities:
+    - group.time_date
+    - group.rpi_sensor
+
+#//-----GROUPS-----//
+rpi_sensor:
+  name: Raspberry Pi
+  entities:
+    - sensor.cpu_use
+    - sensor.disk_use_
+    - sensor.disk_use_varlog
+    - sensor.ram_use
+    - sensor.ram_free
+    - sensor.swap_use
+    - sensor.swap_free
+    - sensor.last_boot
+    - sensor.since_last_boot
+    - sensor.received_eth0
+    - sensor.sent_eth0
+
+#//status//
+time_date:
+  name: Time & Date
+  entities:
+    - sensor.date
+    - sensor.time
+    - sensor.time_utc

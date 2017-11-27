@@ -1,0 +1,51 @@
+#//-----VIEW-----//
+flowers_view:
+  name: Flowers
+  view: yes
+  icon: mdi:flower
+  entities:
+    - group.frikk
+    - group.pelle
+    - group.boble
+    - group.pisa
+
+#//-----GROUPS-----//
+#//Frikk//
+frikk:
+  name: Frikk
+  entities:
+    - sensor.frikk_moisture
+    - sensor.frikk_light_intensity
+    - sensor.frikk_temperature
+    - sensor.frikk_conductivity
+    - sensor.frikk_battery
+
+#//Pelle//
+pelle:
+  name: Pelle
+  entities:
+    - sensor.pelle_moisture
+    - sensor.pelle_light_intensity
+    - sensor.pelle_temperature
+    - sensor.pelle_conductivity
+    - sensor.pelle_battery
+
+#//Boble//
+boble:
+  name: Boble
+  entities:
+    - sensor.boble_moisture
+    - sensor.boble_light_intensity
+    - sensor.boble_temperature
+    - sensor.boble_conductivity
+    - sensor.boble_battery
+
+#//Pisa//
+pisa:
+  name: Pisa
+  entities:
+    - sensor.pisa_moisture
+    - sensor.pisa_light_intensity
+    - sensor.pisa_temperature
+    - sensor.pisa_conductivity
+    - sensor.pisa_battery

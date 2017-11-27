@@ -1,0 +1,6 @@
+# This will override the default home zone
+name: Home
+latitude: !secret latitude_home
+longitude: !secret longitude_home
+radius: 100
+icon: mdi:castle

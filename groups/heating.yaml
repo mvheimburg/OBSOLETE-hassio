@@ -1,0 +1,11 @@
+heating_view:
+  name: Heating
+  view: yes
+  icon: mdi:fire
+  entities:
+    - group.bed_warmer
+
+bed_warmer:
+  name: Bed Warmer
+  entities:
+    - light.onoff_plugin_unit_1

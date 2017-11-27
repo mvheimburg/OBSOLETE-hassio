@@ -1,0 +1,6 @@
+group.td_lamp:
+  icon: mdi:lamp
+light.bloom:
+  icon: mdi:lamp
+light.fibaro_system_fgd212_dimmer_2_level:
+  icon: mdi:spotlight

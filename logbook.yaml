@@ -1,0 +1,10 @@
+include:
+  entities:
+    - device_tracker.martin
+    - device_tracker.trine
+exclude:
+  domains:
+    - light
+    - sensor
+    - group
+    - binary_sensor
